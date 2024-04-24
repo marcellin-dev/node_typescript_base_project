@@ -1,11 +1,12 @@
 import { Router } from "express";
-import factureRoute from "./modules/factures/facture.route";
+
+import userRoute from "./modules/user/route/user.route";
 const router = Router();
 
 
 
 //facture routes
-router.use("/facture", factureRoute);
+router.use("/user", userRoute);
 
 
 export default router;
