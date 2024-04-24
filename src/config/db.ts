@@ -14,7 +14,7 @@ connect(config.server.DB).then(
 
     if (!superAdmin)
       await userModel.create({
-        email: "marcellin.lele@kamix.io",
+        email: "lelemarcellin@gmail.com",
         password: "Admin123@$",
         name: "Amdin",
         role: "admin",
